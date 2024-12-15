@@ -1,0 +1,11 @@
+# Model parameters
+model_type: "LightGCN"  # or "NGCF"
+latent_dim: 64
+num_layers: 3
+dropout: 0.1
+
+# Training parameters
+batch_size: 1024
+learning_rate: 0.001
+epochs: 50
+patience: 10
